@@ -72,12 +72,12 @@ const Login = () => {
     return (
         <div className='flex justify-center items-center h-screen'>
             {loading && <Loader />}
-            {/* Login Form  */}
-            <div className="login_Form bg-pink-50 px-8 py-6 border border-pink-100 rounded-xl shadow-md">
+            {/* Login Form  bg-gradient-to-r from-purple-400 to-purple-900 sticky top-0*/}
+            <div className="login_Form bg-gradient-to-r from-purple-400 to-purple-900 px-8 py-6 border border-pink-100 rounded-xl shadow-md">
 
                 {/* Top Heading  */}
                 <div className="mb-5">
-                    <h2 className='text-center text-2xl font-bold text-pink-500 '>
+                    <h2 className='text-center text-2xl font-bold text-purple-200 '>
                         Login
                     </h2>
                 </div>
@@ -95,7 +95,7 @@ const Login = () => {
                                 email: e.target.value
                             })
                         }}
-                        className='bg-pink-50 border border-pink-200 px-2 py-2 w-96 rounded-md outline-none placeholder-pink-200'
+                        className='bg-gradient-to-l from-purple-400 to-purple-900 border border-purple-700 px-2 py-2 w-96 rounded-md outline-none placeholder-purple-200'
                     />
                 </div>
 
@@ -111,7 +111,7 @@ const Login = () => {
                                 password: e.target.value
                             })
                         }}
-                        className='bg-pink-50 border border-pink-200 px-2 py-2 w-96 rounded-md outline-none placeholder-pink-200'
+                        className='bg-gradient-to-l from-purple-400 to-purple-900 border border-purple-700 px-2 py-2 w-96 rounded-md outline-none placeholder-purple-200'
                     />
                 </div>
 
@@ -120,14 +120,14 @@ const Login = () => {
                     <button
                         type='button'
                         onClick={userLoginFunction}
-                        className='bg-pink-500 hover:bg-pink-600 w-full text-white text-center py-2 font-bold rounded-md '
+                        className='bg-gradient-to-l from-purple-600 to-purple-900 hover:bg-gradient-to-r from-purple-600 to-purple-900 w-full text-black-200 text-center py-2 font-bold rounded-md '
                     >
                         Login
                     </button>
                 </div>
 
                 <div>
-                    <h2 className='text-black'>Don't Have an account <Link className=' text-pink-500 font-bold' to={'/signup'}>Signup</Link></h2>
+                    <h2 className='text-black'>Don't Have an account <Link className=' text-purple-200 font-bold' to={'/signup'}>Signup</Link></h2>
                 </div>
 
             </div>
