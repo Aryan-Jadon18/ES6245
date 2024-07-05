@@ -21,7 +21,7 @@ const Navbar = () => {
 
     // navList Data
     const navList = (
-        <ul className="flex space-x-3 text-white font-medium text-md px-5 ">
+        <ul className="flex space-x-4 font-bold text-indigo-900">
             {/* Home */}
             <li>
                 <Link to={'/'}>Home</Link>
@@ -60,19 +60,19 @@ const Navbar = () => {
             {/* Cart */}
             <li>
                 <Link to={'/cart'}>
-                    Cart({cartItems.length})
+                    Cart [{cartItems.length}]
                 </Link>
             </li>
         </ul>
     )
     return (
-        <nav className="bg-pink-600 sticky top-0">
+        <nav className="bg-gradient-to-r from-purple-400 to-purple-900 sticky top-0">
             {/* main  */}
             <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
                 {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
-                        <h2 className=" font-bold text-white text-2xl text-center">E-Bharat</h2>
+                        <h2 className=" font-bold text- text-2xl text-center">Peaes</h2>
                     </Link>
                 </div>
 

@@ -20,9 +20,9 @@ const SearchBar = () => {
             <div className="input flex justify-center">
                 <input
                     type="text"
-                    placeholder='Search here'
+                    placeholder='Search'
                     onChange={(e) => setSearch(e.target.value)}
-                    className=' bg-gray-200 placeholder-gray-400 rounded-lg px-2 py-2 w-96 lg:w-96 md:w-96 outline-none text-black '
+                    className=' bg-gradient-to-l from-purple-900 to-purple-600 placeholder-gray-400 rounded-lg px-3 py-1 w-96 lg:w-96 md:w-66 outline-none text-black'
                 />
             </div>
 
