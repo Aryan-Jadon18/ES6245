@@ -1,6 +1,9 @@
 # React + Vite
 This is a fully functional open source ecommerce website.
 
+![image](https://github.com/user-attachments/assets/4b670274-c03e-4297-8813-f072b684d3d3)
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
